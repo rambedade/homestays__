@@ -12,11 +12,13 @@ const Banner = () => {
       <div className='flex flex-col lg:flex-row'>
         <div className='lg:ml-8 xl:ml-[135px] flex flex-col
         items-center lg:text-left justify-center flex-1 px-4 lg:px-0 '>
-          <h1><span>Rent</span> Your Dream House With Us</h1>
+          <h1 className='text-4xl lg:text-[58px]
+              font-semibold leading-none mb-6
+          '><span className='text-violet-700'>Rent</span > Your Dream House With Us</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis temporibus neque, dolorum totam, error unde quaerat adipisci eligendi veritatis inventore eaque deserunt fugiat sapiente, pariatur numquam molestiae voluptatem. A, eveniet!</p>
         </div>
         {/* Image section */}
-        <div>
+        <div className='hidden flex-1 lg:flex justify-end items-end'>
            <img src={Image} alt="" />
         </div>
       </div> 
