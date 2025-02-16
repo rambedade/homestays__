@@ -3,11 +3,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter as Router } from "react-router-dom";
+import HouseContextProvider from "./components/HouseContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <Router>
-    <StrictMode>
-      <App /> 
-    </StrictMode>
-  </Router>
+  <HouseContextProvider>
+    <Router>
+      <StrictMode>
+        <App />
+      </StrictMode>
+    </Router>
+  </HouseContextProvider>
 );
