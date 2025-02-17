@@ -79,7 +79,8 @@ The app will run at **`http://localhost:5173`** (if using Vite).
 ---
 
 ## 📸 Screenshots
-_Add screenshots of your application here._
+![image](https://github.com/user-attachments/assets/80377d40-52a6-4271-b54f-022654b61147)
+
 
 ---
 
